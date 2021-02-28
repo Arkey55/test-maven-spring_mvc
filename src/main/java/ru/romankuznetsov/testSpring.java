@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class testSpring {
     @RequestMapping(method = RequestMethod.GET)
     public String helloWold(ModelMap model){
-        model.addAttribute("message", "Это вроде не бут, но это не точно");
+        model.addAttribute("message", "Это вроде не бут, но это не точно ");
         return "hello";
     }
 }
